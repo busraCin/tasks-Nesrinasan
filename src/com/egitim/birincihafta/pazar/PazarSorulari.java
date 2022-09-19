@@ -48,38 +48,6 @@ public class PazarSorulari {
         }
 
         /**
-         * Okul puanlarının harf karşılığını yazan program.
-         * Random alınabilir değerler.
-         * 0 - 35 arası FF
-         * 35 - 50 arası DC
-         * 50 - 70 arası BB
-         * 70 - 100 arası AA
-         */
-
-        Random randomPuan = new Random();
-        int puan = 35;
-        if (puan > 0 && puan <= 35)
-            System.out.println(puan + "puanının harf karşılığı: " + "FF");
-        else if (puan >= 35 && puan < 50)
-            System.out.println(puan + "puanının harf karşılığı: " + "DC");
-        else if (puan >= 50 && puan < 70)
-            System.out.println(puan + "puanının harf karşılığı: " + "BB");
-        else if (puan >= 70 && puan < 100)
-            System.out.println(puan + "puanının harf karşılığı: " + "AA");
-        else
-            System.out.println(puan + "hesaplanamayan puan tipi");
-
-        switch (puan) {
-            case 0:
-            case 1:
-            case 2:
-            case 35:
-                System.out.println(puan + "puanının harf karşılığı: " + "FF");
-                break;
-
-        }
-
-        /**
          * soru: 1, 2, 3....20 ye kadar olan sayıların toplamı?
          *
          */
