@@ -1,6 +1,7 @@
 package ikincihafta.pazar.memory;
 
-import com.egitim.ikincihafta.cmt.oop.encapsulation.Ogrenci;
+
+import ikincihafta.cmt.oop.encapsulation.Ogrenci;
 
 import java.util.ArrayList;
 import java.util.List;
